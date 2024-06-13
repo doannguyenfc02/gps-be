@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\gps-jamming-classifier-be.props" />
-</Project>
