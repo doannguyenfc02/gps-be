@@ -1,0 +1,53 @@
+.manage-data-container {
+  display: flex;
+  height: 100vh;
+}
+
+.data-list {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.details-view {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.data-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.data-item:hover {
+  background-color: #f0f0f0;
+}
+
+.data-item.selected {
+  background-color: #e0e0e0;
+}
+
+.data-item h3 {
+  margin: 0;
+}
+
+.data-item p {
+  margin: 5px 0;
+}
+
+.data-item button {
+  margin-right: 10px;
+}
+
+.detail-item {
+  margin-bottom: 20px;
+}
+
+.detail-item img {
+  max-width: 100%;
+  height: auto;
+}
